@@ -1,2 +1,1 @@
-# QAP_PetFriendsTesting
-первые автотесты
+# PetFriends_Tests
