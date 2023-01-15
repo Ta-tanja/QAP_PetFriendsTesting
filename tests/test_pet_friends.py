@@ -118,7 +118,7 @@ def test_add_photo_of_pet(pet_photo='images/s1200.jpg'):
     # Берем первого питомца и добавляем его фото
     status, result = pf.add_photo_of_pet(auth_key, my_pets['pets'][0]['id'], pet_photo)
 
-    # Проверяем, что статус ответа = 200 и у питомца появилось фото
+    # Проверяем , что статус ответа = 200 и у питомца появилось фото
     assert status == 200
     assert result['pet_photo'] != ''
 
